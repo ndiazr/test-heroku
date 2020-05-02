@@ -12,4 +12,10 @@ public class Controller
     {
         return ResponseEntity.ok().body("Hello world");
     }
+
+    @GetMapping("/test")
+    public ResponseEntity test()
+    {
+        return ResponseEntity.ok().body("Test");
+    }
 }
